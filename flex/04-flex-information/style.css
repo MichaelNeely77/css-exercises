@@ -24,3 +24,21 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My Answer */
+
+.plant-container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plant {
+  display:flex;
+  flex-direction: column;
+}
+
+.title {
+ display:flex;
+  justify-content:center;
+}

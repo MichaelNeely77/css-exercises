@@ -27,3 +27,64 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My answer */
+
+body {
+  display:flex;
+  flex-direction: column;
+}
+
+.header {
+  padding-left: 16px;
+  display:flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.main {
+  display:flex;
+  flex:1;
+}
+
+.sidebar {
+  flex-shrink:0;
+  padding: 16px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  display:flex;
+  margin-bottom: 16px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.cards {
+  display:flex;
+  flex-wrap: wrap;
+  padding: 32px;
+
+}
+
+.card {
+  display:flex;
+  flex: 1 1 33%;
+  padding: 16px;
+  margin:16px;
+}
+
+.footer {
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
